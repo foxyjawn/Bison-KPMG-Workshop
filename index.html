@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 1. INSERT A LINK TO main.css STYLESHEET -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- 2. INSERT A TITLE FOR YOUR PAGE -->
+    <title>I am Kiana Moore</title>
+
+    <script src="https://use.fontawesome.com/7e02fdffef.js"></script>
+    <script src="js/homework.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="left center-content">
+        <!-- 3. ADD AN IMAGE OF YOURSELF TO INTO THE images/ FOLDER -->
+        <!-- 4. INSERT THE IMAGE HERE AND SET THE FOLLOWING ATTRIBUTES
+        width="300" height="350" class="headshot" alt="Headshot of person"
+        -->
+        <img src= "images/Kiana_Moore.jpg" width="300" height="350" class="headshot" alt="Headshot of person">
+
+      </div>
+      <div class="right">
+        <!-- 5. ADD AN H2 HEADING WITH YOUR NAME -->
+        <h2>Kiana Moore</h2>
+        <!-- 6. ADD AN H3 HEADING WITH A SHORT DESCRIPTION OF YOURSELF -->
+        <h3>I am a sophomore Honors Computer Information Systems major at Howard University from Philadelphia, Pennsylvania.</h3>
+        <!-- 7. ADD A PARAGRAPH TAG WITH SOME INFO ABOUT YOURSELF -->
+        <p>I aspire to be a software engineer. I have a passion for problem-solving and programming, and I am fascinated by technology and its capabilities. With the skills I develop during my career in software, I will become an entrepreneur and introduce my lifestyle app to the black community to help build confidence in the versatility of black hair. Once established, I hope to participate in additional community services such as mentorship and education. I eventually want to found a mentorship program for black girls without female role models and a voter education initiative in communities with less access to political education, starting with my hometown of Philadelphia. After building enough wealth to reinvest into my community, I plan to initiate a second career in real estate and learn how to successfully invest in providing more affordable, safe, and comfortable housing to those facing poverty or gentrification within their communities.</p>
+        
+      </div>
+    </section>
+
+    <section class="container shaded">
+      <div class="left align-self-center">
+        <h1>Who do you want to be?</h1>
+        <p>
+          The KPMG Story encompasses what we believe in, where we're going, and how we’ll get there. 
+          It includes our Purpose, Values, Vision, Strategy, and our Promise. Our story helps us make informed 
+          decisions as we respond to challenges and pursue new opportunities. 
+        </p>
+        <p>The KPMG Story binds us together, and helps us grow – individually and collectively – and it 
+          sets us apart from the competition. KPMG has a great story to tell, and we’re extremely 
+          proud of it. We encourage you to learn more about how you can become part of our story.
+        </p>
+        <p>
+          What will Your Story be at KPMG?
+        </p>
+        <!-- 8. ADD LINK TAGS AROUND THE FOLLOWING ICONS THAT WILL LINK TO YOUR 
+          PROFILES (GITHUB, LINKEDIN, TWITTER, ETC.) AND WILL OPEN IN A NEW TAB
+          HINT: <start tag with attributes ahref and target><i class="fa fa-linkedin circle-icon"></i><end tag>
+         -->
+        <a href="https://www.linkedin.com/in/kiana-d-moore/" target="_blank"><i class="fa fa-linkedin circle-icon"></i></a>
+        <a href="https://github.com/foxyjawn" target="_blank"><i class="fa fa-github circle-icon"></i></a>
+        <a href="https://www.instagram.com/foxyjawn/" target="_blank"><i class="fa fa-instagram circle-icon"></i></a>
+      </div>
+      <div class="right">
+        <!-- 9. ADD AN ORDERED LIST THAT HAS 3 ITEMS WITH A HEADING 2 AND PARAPGRAGH TAG FOR EACH ITEM.
+          LIST THREE CAREER PATHS YOU ARE INTERESTED IN PURSUING AND A BRIEF DESCRIPTION ON WHY 
+        HINT: YOUR LIST ITEMS WILL BE THE CONTAINER FOR BOTH HEADING 2 AND PARAGRAPH TAGS -->
+		<ol>
+			<li><h2>Software Engineer</h2>
+			<p>I aspire to be a software engineer because I have a passion for coding, technology, problem-solving, and innovation. I also have several app ideas that I want to challenge myself to bring to life.</p></li>
+			<li><h2>Educator</h2>
+			<p>I want to be an educator because I would never had known about my ability to excel in computer science if my high school had not hada robotics team. I believer all children from underrepresented communities should be introduced to computer science early to remove the wariness people often have about programming.</p>
+			<li><h2>Artist</h2>
+			<p>I am a self-proclaimed artist who has always loved to physically manifest the ideas in my head. I do this by coding, drawing, and writing. I sell my artwork on digital marketplaces as well as share it with social media. I plan to release at least two books in my lifetime.</p>
+			
+      </div>
+    </section>
+
+    <section>
+      <!-- 10. INSERT A HEADING 1 "What Will You Get From Me?" AND ADD THE "center-text" CSS CLASS -->
+		<h1 class="center-text">What Will You Get From Me?</h1>
+      <div class="tiles-wrapper">
+        <div class="image-card">
+          <div class="image-card-content">
+            <p id="quote">Are we there yet?</p>
+            <button type="button" onClick="getNextQuote(kidQuotes)">
+              Try Something Different
+            </button>
+          </div>
+          <img
+            class="tile-image"
+            src="images/windmill.jpg"
+            alt="Windmill"
+          />
+          <div class="image-card-label">
+            <h1 class="image-card-label-title" aria-hidden="true">
+              Random Quote Generator
+            </h1>
+          </div>
+        </div>
+
+        <div class="image-card">
+          <img
+            class="tile-image"
+            src="images/city.jpg"
+            alt="Skyscrapers"
+          />
+          <div class="image-card-label">
+            <h1 class="image-card-label-title" aria-hidden="true">
+              Cool Project To Be Developed
+            </h1>
+          </div>
+        </div>
+
+        <div class="image-card">
+          <img
+            class="tile-image"
+            src="images/landscape.jpg"
+            alt="Landscape"
+          />
+          <div class="image-card-label">
+            <h1 class="image-card-label-title" aria-hidden="true">
+              Another Neat Project In The Works
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
